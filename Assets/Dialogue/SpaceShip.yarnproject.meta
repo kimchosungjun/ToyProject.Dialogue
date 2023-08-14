@@ -11,7 +11,23 @@ ScriptedImporter:
   sourceScripts:
   - {fileID: 6391573757903218779, guid: 5e2ef4bb4e2714d818317ecf5623d62b, type: 3}
   compileErrors: []
-  serializedDeclarations: []
+  serializedDeclarations:
+  - name: $away_mission_readiness
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in SpaceJourney_FinalVersion.yarn, node TalkToCaptain
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 5e2ef4bb4e2714d818317ecf5623d62b, type: 3}
+  - name: $captain_is_friend
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in SpaceJourney_FinalVersion.yarn, node TalkToCaptain
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 5e2ef4bb4e2714d818317ecf5623d62b, type: 3}
   defaultLanguage: ko-KR
   languagesToSourceAssets: []
   useAddressableAssets: 0

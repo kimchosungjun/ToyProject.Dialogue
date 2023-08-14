@@ -14,7 +14,9 @@ public class SceneDirector : MonoBehaviour {
         // get handles of utility objects in the scene that we need
         dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
         fadeLayer = FindObjectOfType<FadeLayer>();
-
+        dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
+        dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
+        dialogueRunner.AddCommandHandler<Location>("camera", MoveCamera);
         // <<camera NAME_OF_LOCATION>>
 
         // <<fadeIn DURATION>> and <<fadeOut DURATION>>

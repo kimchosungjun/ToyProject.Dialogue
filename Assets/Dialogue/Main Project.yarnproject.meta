@@ -17,25 +17,49 @@ ScriptedImporter:
     defaultValueBool: 0
     defaultValueNumber: 0
     defaultValueString: 
-    description: Implicitly declared in GhostyLads.yarn, node Start
+    description: Implicitly declared in GhostyLads_FinalVersion.yarn, node Start
     isImplicit: 1
-    sourceYarnAsset: {fileID: 6391573757903218779, guid: b6d0956b3ae924177ba260b608d7b31b, type: 3}
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: b5247dc8d927b4b08970ffdb23329617, type: 3}
   - name: $hasClueB
     typeName: Bool
     defaultValueBool: 0
     defaultValueNumber: 0
     defaultValueString: 
-    description: Implicitly declared in GhostyLads.yarn, node Start
+    description: Implicitly declared in GhostyLads_FinalVersion.yarn, node Start
     isImplicit: 1
-    sourceYarnAsset: {fileID: 6391573757903218779, guid: b6d0956b3ae924177ba260b608d7b31b, type: 3}
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: b5247dc8d927b4b08970ffdb23329617, type: 3}
   - name: $hasClueC
     typeName: Bool
     defaultValueBool: 0
     defaultValueNumber: 0
     defaultValueString: 
-    description: Implicitly declared in GhostyLads.yarn, node Start
+    description: Implicitly declared in GhostyLads_FinalVersion.yarn, node Start
     isImplicit: 1
-    sourceYarnAsset: {fileID: 6391573757903218779, guid: b6d0956b3ae924177ba260b608d7b31b, type: 3}
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: b5247dc8d927b4b08970ffdb23329617, type: 3}
+  - name: $spokenToLeftGrave
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in GhostyLads_FinalVersion.yarn, node Start
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: b5247dc8d927b4b08970ffdb23329617, type: 3}
+  - name: $spokenToCenterGrave
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in GhostyLads_FinalVersion.yarn, node Start
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: b5247dc8d927b4b08970ffdb23329617, type: 3}
+  - name: $spokenToRightGrave
+    typeName: Bool
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in GhostyLads_FinalVersion.yarn, node Start
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: b5247dc8d927b4b08970ffdb23329617, type: 3}
   defaultLanguage: ko-KR
   languagesToSourceAssets: []
   useAddressableAssets: 0
