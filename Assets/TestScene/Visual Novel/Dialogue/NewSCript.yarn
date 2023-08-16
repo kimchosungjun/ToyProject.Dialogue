@@ -1,16 +1,17 @@
-﻿title: NewSCript
+﻿title: New
 tags:
 colorID: 0
 position: 0,0
 ---
-
+<<set $ClueA to false>>
+<<set $hasClueB to false>>
+<<set $hasClueC to false>>
 // sets background image to sprite called "bg_office"
 <<Scene Background>>
 // start playing audioclip "ambient_birds" at 50% volume, loop forever
 <<PlayAudio ambient_birds 0.5 loop>>
 
 Hello World!
-
 
 <<Act Eve cool-girl left center>>
 
@@ -26,4 +27,8 @@ Eve: Finally, a quiet day at the office. Maybe I'll be able to get some work don
 Adam: Hey Eve! I have a question!
 Eve: Oh no...
 
+-> SelectA 
+	Eve: i'am Eve.
+-> SelectB
+	Eve: i'am not Eve.
 ===
